@@ -1,0 +1,49 @@
+Requirements for laptop/desktop to run the Application
+
+python lastest version installed
+VScode code editor installed (can use other similar program)
+nodejs
+
+Clone file
+==================
+
+clone file with Link provided {https://github.com/Sai-Hlaing-Pon/IIT499-CHECK-OS-Final-Project/}
+With program such as sourcetree or git bash.
+
+step {for backend}
+========================
+- locate to your clone file path with CMD program.
+    {cd back_end folder}
+- create a new envrioment with command below    
+    python -m venv {env name}
+    cd evn {name}
+    cd Scripts 
+    activate     
+ -after that check if there is evn name in front of the commend path, if yes
+   come back to main folder {back_end}
+ - then use commend $pip install -r requirements.txt 
+    to install the requirements for backend
+
+- finally run command {python main.py} and access the backend Fast Api via localhost:8000 URL 
+
+
+step for {frontend}
+=======================
+
+- run command   cd frontend {consider you are in clone file path via command line}
+
+- then   npm install(you need to have nodejs installed in your computer)
+
+- npm install --save react-router-dom
+// with npm
+- npm install @material-ui/core
+
+// option with yarn
+yarn add @material-ui/core
+
+- npm install @material-ui/icons
+
+- npm install redux react-redux redux-thunk
+- npm i axios
+- npm install dayjs
+- npm install --save jwt-decode
