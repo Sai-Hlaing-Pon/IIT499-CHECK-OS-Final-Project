@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+schematics
+pymongo
+motor
+pydantic[email]
+passlib
+bcrypt
+python-multipart
+python-jose
